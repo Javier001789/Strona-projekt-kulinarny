@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #000; /* черный цвет фона */
+    color: #00FF00; /* зеленый цвет текста */
+}
+
+h1 {
+    text-align: center;
+    color: #00FF00; /* зеленый цвет заголовка */
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Стили для списка ингредиентов */
+ol {
+    list-style-type: decimal;
+}
+
+/* Стили для каждого ингредиента */
+li {
+    font-size: 16px;
+}
+
+/* Стили для заголовка */
+h1 {
+    font-size: 24px;
+}
+
+/* Стили для абзаца */
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Стили для изображения блинов */
+.blint-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+}

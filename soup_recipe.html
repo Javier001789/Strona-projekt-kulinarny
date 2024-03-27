@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przepis na zupę</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #000000;
+            /* цвет фона */
+            color: #00f752;
+            /* цвет текста */
+        }
+
+        h1 {
+            color: #0066cc;
+            /* цвет заголовка */
+        }
+
+        p { 
+            margin: 0;
+            /* Удаляем отступы у абзаца */
+        }
+
+        ol {
+            margin-left: 10px;
+            /* отступ слева для списка */
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .soup-image {
+            width: 500px;
+            /* Ширина изображения */
+            display: block;
+            /* Блочное отображение */
+            /* margin: 100px auto; */
+            /* Выравнивание по центру с отступом сверху и снизу */
+        }
+
+        .flex-container {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Przepis na zupę</h1>
+    <div class="flex-container">
+        <div>
+            <p>Jak przygotować pyszną zupę:</p>
+            <ol>
+                <li>Wlej wodę do garnka.</li>
+                <li>Dodaj warzywa i mięso.</li>
+                <li>Gotuj na wolnym ogniu, aż będzie gotowe.</li>
+                <li>Podać i cieszyć się!</li>
+            </ol>
+        </div>
+        <div>
+            <img src="https://avatars.mds.yandex.net/i?id=6af2c24a2d17350599920bc39ff093b6b09f898d-10868638-images-thumbs&n=13"
+                alt="Zupa" class="soup-image"> <!-- Добавленное изображение -->
+        </div>
+    </div>
+</body>
+
+</html>
